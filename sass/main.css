@@ -31,10 +31,7 @@ section .header h1 {
     body .page-container main {
       width: auto;
       margin: 0 1rem;
-      box-sizing: border-box;
-      margin-top: 2em; }
-      body .page-container main section {
-        margin-top: 8rem; } }
+      box-sizing: border-box; } }
 
 .highlight table td:first-child pre {
   -webkit-touch-callout: none;
@@ -98,7 +95,10 @@ body > .page-container > header {
     position: fixed;
     top: 0;
     background-color: #FFF;
-    height: 2em; }
+    height: 2em;
+    padding: 0 1rem; }
+    body > .page-container > header > a {
+      line-height: 2em; }
     body > .page-container > header .burger-menu {
       display: flex; }
     body > .page-container > header nav {
