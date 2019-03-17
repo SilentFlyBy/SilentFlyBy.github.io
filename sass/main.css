@@ -12,6 +12,8 @@ body {
       width: 50rem;
       margin: 0 auto;
       padding-bottom: 10rem; }
+      body .page-container main section {
+        margin-top: 1rem; }
 
 a {
   text-decoration: none;
@@ -21,7 +23,7 @@ section .header h1 {
   margin: 0;
   font-size: 2rem; }
 
-@media handheld, screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   body {
     font-size: 90%; }
     body .page-container main {
@@ -87,7 +89,7 @@ body > .page-container > header {
         line-height: 4rem;
         font-weight: bold; }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
   body > .page-container > header {
     position: fixed;
     top: 0;
