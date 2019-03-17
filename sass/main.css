@@ -14,6 +14,8 @@ body {
       padding-bottom: 10rem; }
       body .page-container main section {
         margin-top: 1rem; }
+        body .page-container main section img {
+          max-width: 100%; }
 
 a {
   text-decoration: none;
@@ -23,12 +25,12 @@ section .header h1 {
   margin: 0;
   font-size: 2rem; }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
   body {
     font-size: 90%; }
     body .page-container main {
       width: auto;
-      margin: 0 .5rem;
+      margin: 0 1rem;
       box-sizing: border-box;
       margin-top: 2em; }
       body .page-container main section {
@@ -64,7 +66,7 @@ body > .page-container > header {
   body > .page-container > header > a {
     color: #000; }
   body > .page-container > header .burger-menu {
-    width: 100px;
+    width: 50px;
     display: none;
     flex-flow: column;
     flex-wrap: nowrap;
@@ -72,10 +74,10 @@ body > .page-container > header {
     align-items: center;
     cursor: pointer; }
     body > .page-container > header .burger-menu div {
-      width: 60px;
-      height: 8px;
+      width: 30px;
+      height: 4px;
       background-color: black;
-      margin: 6px 0;
+      margin: 3px 0;
       border-radius: 2px; }
   body > .page-container > header nav {
     text-align: center; }
@@ -91,11 +93,12 @@ body > .page-container > header {
         vertical-align: middle;
         display: table-cell; }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
   body > .page-container > header {
     position: fixed;
     top: 0;
-    background-color: #FFF; }
+    background-color: #FFF;
+    height: 2em; }
     body > .page-container > header .burger-menu {
       display: flex; }
     body > .page-container > header nav {
@@ -104,7 +107,9 @@ body > .page-container > header {
       background-color: #FFF;
       right: -75%;
       border-left: 1px solid #d4dadf;
-      box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1); }
+      box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1);
+      height: 100%;
+      top: 2em; }
       body > .page-container > header nav.expanded {
         right: 0; }
       body > .page-container > header nav ul {
@@ -113,7 +118,11 @@ body > .page-container > header {
         body > .page-container > header nav ul li {
           display: block;
           margin: 0;
-          border-bottom: 1px solid #d4dadf; } }
+          border-bottom: 1px solid #d4dadf;
+          padding: 1rem; }
+          body > .page-container > header nav ul li a {
+            font-size: 1.5rem;
+            display: block; } }
 
 footer {
   display: flex;
@@ -143,3 +152,7 @@ footer {
   .home header h2 {
     color: #aaa;
     margin-bottom: 2em; }
+
+@media only screen and (max-width: 600px) {
+  .home header h1 {
+    font-size: 3rem; } }
