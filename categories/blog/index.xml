@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Erik Moldtmann</title>
-    <link>https://erik.moldtmann.de/</link>
-    <description>Recent content on Erik Moldtmann</description>
+    <title>Blog on Erik Moldtmann</title>
+    <link>https://erik.moldtmann.de/categories/blog/</link>
+    <description>Recent content in Blog on Erik Moldtmann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Sun, 17 Mar 2019 11:21:40 +0100</lastBuildDate>
     
-	<atom:link href="https://erik.moldtmann.de/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erik.moldtmann.de/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,18 +20,6 @@
       <description>Aller Anfang ist schwer. Nun ist es also soweit: nach ewigem hin-und-her-überlegen ob und wie und wann steht der Rohbau meines Blogs.
 Worum geht es hier? Ich möchte hier vor allem Guides zu verschiedenen Themen rund um IT und Programmierung posten. Diese dienen in erster Linie für mich selbst, um angelerntes Wissen für später festzuhalten, und in zweiter Linie, um den Rest der Welt daran teilhaben zu lassen.
 Darüber hinaus behalte ich mir vor, auch zu anderen Themen, die mir gerade in den Sinn kommen zu posten.</description>
-    </item>
-    
-    <item>
-      <title>Imprint</title>
-      <link>https://erik.moldtmann.de/imprint/</link>
-      <pubDate>Sat, 16 Mar 2019 20:52:56 +0100</pubDate>
-      
-      <guid>https://erik.moldtmann.de/imprint/</guid>
-      <description>Erik Moldtmann
-Baggermeisterring 16
-18109 Rostock
-E-Mail erikmoldtmann (at) googlemail (dot) com</description>
     </item>
     
   </channel>
