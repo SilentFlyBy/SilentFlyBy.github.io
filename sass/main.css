@@ -30,7 +30,9 @@ section .header h1 {
       width: auto;
       margin: 0 .5rem;
       box-sizing: border-box;
-      margin-top: 64px; } }
+      margin-top: 4rem; }
+      body .page-container main section {
+        margin-top: 8rem; } }
 
 .highlight table td:first-child pre {
   -webkit-touch-callout: none;
@@ -49,7 +51,7 @@ section .header h1 {
 
 body > .page-container > header {
   width: 100%;
-  height: 64px;
+  height: 4rem;
   box-sizing: border-box;
   border-bottom: 1px solid #d4dadf;
   position: relative;
@@ -62,9 +64,9 @@ body > .page-container > header {
   body > .page-container > header > a {
     color: #000;
     font-size: 2rem;
-    line-height: 64px; }
+    line-height: 4rem; }
   body > .page-container > header .burger-menu {
-    width: 50px;
+    width: 100px;
     display: none;
     flex-flow: column;
     flex-wrap: nowrap;
@@ -72,10 +74,10 @@ body > .page-container > header {
     align-items: center;
     cursor: pointer; }
     body > .page-container > header .burger-menu div {
-      width: 30px;
-      height: 4px;
+      width: 60px;
+      height: 8px;
       background-color: black;
-      margin: 3px 0;
+      margin: 6px 0;
       border-radius: 2px; }
   body > .page-container > header nav {
     text-align: center; }
@@ -86,16 +88,18 @@ body > .page-container > header {
       display: inline-block;
       margin: 0 1rem; }
       body > .page-container > header ul li a {
-        line-height: 64px;
+        line-height: 4rem;
         font-weight: bold; }
 
 @media screen and (max-width: 1024px) {
   body > .page-container > header {
     position: fixed;
     top: 0;
-    background-color: #FFF; }
+    background-color: #FFF;
+    height: 8rem; }
     body > .page-container > header > a {
-      font-size: 1.5rem; }
+      font-size: 4rem;
+      line-height: 8rem; }
     body > .page-container > header .burger-menu {
       display: flex; }
     body > .page-container > header nav {
@@ -104,7 +108,7 @@ body > .page-container > header {
       width: 75%;
       background-color: #FFF;
       right: -75%;
-      top: 64px;
+      top: 4rem;
       border-left: 1px solid #d4dadf;
       box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1); }
       body > .page-container > header nav.expanded {
