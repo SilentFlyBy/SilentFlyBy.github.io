@@ -10,7 +10,12 @@
 <link rel="stylesheet" href="/sass/main.css" media="screen"><body>
         <div class="page-container"><header>
     <a class="nav-title" href="https://erik.moldtmann.de">Erik Moldtmann</a>
-    <nav class="navigation">
+    <div class="burger-menu" onclick="document.getElementById('nav').classList.toggle('expanded')">
+        <div></div>
+        <div></div>
+        <div></div> 
+    </div>
+    <nav class="navigation" id="nav">
         <ul class=" nav-links">
             
                 
@@ -39,7 +44,7 @@
 
                 </main><footer>
     
-        <a href="imprint">Imprint</a>
+        <a href="/imprint/">Imprint</a>
      
 </footer></div>
     </body>
