@@ -23,7 +23,7 @@ section .header h1 {
   margin: 0;
   font-size: 2rem; }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   body {
     font-size: 90%; }
     body .page-container main {
@@ -89,7 +89,7 @@ body > .page-container > header {
         line-height: 4rem;
         font-weight: bold; }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   body > .page-container > header {
     position: fixed;
     top: 0;
