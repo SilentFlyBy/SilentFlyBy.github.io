@@ -30,7 +30,7 @@ section .header h1 {
       width: auto;
       margin: 0 .5rem;
       box-sizing: border-box;
-      margin-top: 4rem; }
+      margin-top: 2em; }
       body .page-container main section {
         margin-top: 8rem; } }
 
@@ -51,7 +51,6 @@ section .header h1 {
 
 body > .page-container > header {
   width: 100%;
-  height: 4rem;
   box-sizing: border-box;
   border-bottom: 1px solid #d4dadf;
   position: relative;
@@ -59,12 +58,11 @@ body > .page-container > header {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: stretch;
-  padding: 0 1rem;
-  box-shadow: 0 3px 8px 0 rgba(3, 3, 3, 0.1); }
+  padding: 1rem;
+  box-shadow: 0 3px 8px 0 rgba(3, 3, 3, 0.1);
+  font-size: 200%; }
   body > .page-container > header > a {
-    color: #000;
-    font-size: 2rem;
-    line-height: 4rem; }
+    color: #000; }
   body > .page-container > header .burger-menu {
     width: 100px;
     display: none;
@@ -88,27 +86,23 @@ body > .page-container > header {
       display: inline-block;
       margin: 0 1rem; }
       body > .page-container > header ul li a {
-        line-height: 4rem;
-        font-weight: bold; }
+        font-size: .6em;
+        font-weight: bold;
+        vertical-align: middle;
+        display: table-cell; }
 
 @media screen and (max-width: 1024px) {
   body > .page-container > header {
     position: fixed;
     top: 0;
-    background-color: #FFF;
-    height: 8rem; }
-    body > .page-container > header > a {
-      font-size: 4rem;
-      line-height: 8rem; }
+    background-color: #FFF; }
     body > .page-container > header .burger-menu {
       display: flex; }
     body > .page-container > header nav {
       position: fixed;
-      height: 100%;
       width: 75%;
       background-color: #FFF;
       right: -75%;
-      top: 4rem;
       border-left: 1px solid #d4dadf;
       box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1); }
       body > .page-container > header nav.expanded {
@@ -118,11 +112,8 @@ body > .page-container > header {
         padding: 0; }
         body > .page-container > header nav ul li {
           display: block;
-          height: 3rem;
           margin: 0;
-          border-bottom: 1px solid #d4dadf; }
-          body > .page-container > header nav ul li a {
-            line-height: 3rem; } }
+          border-bottom: 1px solid #d4dadf; } }
 
 footer {
   display: flex;
