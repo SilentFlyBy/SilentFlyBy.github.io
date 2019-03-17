@@ -23,14 +23,5 @@ Baggermeisterring 16
 E-Mail erikmoldtmann (at) googlemail (dot) com</description>
     </item>
     
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>https://erik.moldtmann.de/posts/first-post/</link>
-      <pubDate>Mon, 11 Mar 2019 20:59:40 +0100</pubDate>
-      
-      <guid>https://erik.moldtmann.de/posts/first-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
   </channel>
 </rss>

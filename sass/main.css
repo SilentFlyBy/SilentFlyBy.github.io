@@ -138,3 +138,13 @@ footer {
 .post blockquote {
   border-left: 3px solid #d4dadf;
   padding-left: 1rem; }
+
+.home header {
+  text-align: center; }
+  .home header h1 {
+    font-size: 4rem;
+    margin: 0;
+    margin-top: 1em; }
+  .home header h2 {
+    color: #aaa;
+    margin-bottom: 2em; }
