@@ -4,18 +4,22 @@ html, body {
   height: 100%; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Noto Sans', sans-serif; }
   body .page-container {
     position: relative;
     min-height: 100%; }
     body .page-container main {
       width: 50rem;
       margin: 0 auto;
+      margin-top: 5rem !important;
       padding-bottom: 10rem; }
       body .page-container main section {
         margin-top: 1rem; }
         body .page-container main section img {
           max-width: 100%; }
+      body .page-container main > .header > h1 {
+        text-align: center;
+        font-size: 3rem; }
 
 a {
   text-decoration: none;
@@ -57,11 +61,13 @@ body > .page-container > header {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: stretch;
-  padding: 1rem;
   box-shadow: 0 3px 8px 0 rgba(3, 3, 3, 0.1);
-  font-size: 200%; }
+  font-size: 200%;
+  height: 2em;
+  padding: 0 2rem; }
   body > .page-container > header > a {
-    color: #000; }
+    color: #000;
+    line-height: 2em; }
   body > .page-container > header .burger-menu {
     width: 50px;
     display: none;
@@ -77,18 +83,23 @@ body > .page-container > header {
       margin: 3px 0;
       border-radius: 2px; }
   body > .page-container > header nav {
-    text-align: center; }
-  body > .page-container > header ul {
-    display: inline-block;
-    margin: 0; }
-    body > .page-container > header ul li {
-      display: inline-block;
-      margin: 0 1rem; }
-      body > .page-container > header ul li a {
-        font-size: .6em;
-        font-weight: bold;
-        vertical-align: middle;
-        display: table-cell; }
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold; }
+    body > .page-container > header nav span {
+      margin-left: 2rem; }
+  body > .page-container > header .avatar {
+    height: 200%;
+    position: absolute;
+    top: 10px;
+    left: 50%; }
+    body > .page-container > header .avatar img {
+      height: 100%;
+      border-radius: 50%;
+      background-color: #666;
+      position: relative;
+      left: -50%; }
 
 @media only screen and (max-width: 600px) {
   body > .page-container > header {
@@ -98,9 +109,12 @@ body > .page-container > header {
     height: 2em;
     padding: 0 1rem; }
     body > .page-container > header > a {
-      line-height: 2em; }
+      line-height: 2em;
+      font-size: 1.6rem; }
     body > .page-container > header .burger-menu {
       display: flex; }
+    body > .page-container > header .avatar {
+      display: none; }
     body > .page-container > header nav {
       position: fixed;
       width: 75%;
@@ -109,20 +123,19 @@ body > .page-container > header {
       border-left: 1px solid #d4dadf;
       box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1);
       height: 100%;
-      top: 2em; }
+      top: 2em;
+      display: block; }
       body > .page-container > header nav.expanded {
         right: 0; }
-      body > .page-container > header nav ul {
+      body > .page-container > header nav span {
         display: block;
-        padding: 0; }
-        body > .page-container > header nav ul li {
-          display: block;
-          margin: 0;
-          border-bottom: 1px solid #d4dadf;
-          padding: 1rem; }
-          body > .page-container > header nav ul li a {
-            font-size: 1.5rem;
-            display: block; } }
+        padding: 0;
+        margin: 0;
+        border-bottom: 1px solid #d4dadf;
+        padding: 1rem; }
+        body > .page-container > header nav span a {
+          font-size: 1.5rem;
+          display: block; } }
 
 footer {
   display: flex;
@@ -136,12 +149,19 @@ footer {
 .post .header a {
   color: #000; }
 
-.post .header .post-meta, .post .header .post-meta a {
-  color: #aaa; }
-
 .post blockquote {
   border-left: 3px solid #d4dadf;
   padding-left: 1rem; }
+
+.post.full {
+  margin-top: 0; }
+  .post.full .post-meta {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; }
+
+.post-meta, .post-meta a {
+  color: #aaa; }
 
 .home header {
   text-align: center; }
