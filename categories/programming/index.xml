@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Erik Moldtmann</title>
-    <link>https://erik.moldtmann.de/posts/</link>
-    <description>Recent content in Posts on Erik Moldtmann</description>
+    <title>Programming on Erik Moldtmann</title>
+    <link>https://erik.moldtmann.de/categories/programming/</link>
+    <description>Recent content in Programming on Erik Moldtmann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
     <lastBuildDate>Mon, 18 Mar 2019 21:32:59 +0100</lastBuildDate>
     
-	<atom:link href="https://erik.moldtmann.de/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://erik.moldtmann.de/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>Wer Webseiten mit einheitlichem Look bauen möchte, stößt mit reinem HTML schnell an seine Grenzen.
 Webseiten bestehen meist aus einem einheitlichen Header, Footer und vielleicht einer Sidebar. Nur der Content dazwischen unterscheidet sich von Seite zu Seite.
 Versucht man nun, eine mehrere Unterseiten umfassende Webseite nur aus HTML-Dateien zu erstellen, muss man Header, Footer und Sidebar auf jeder Seite manuell einfügen. Ändert sich der Code an einem dieser Elemente, muss man die Änderung auf jeder einzelnen Unterseite mitziehen.</description>
-    </item>
-    
-    <item>
-      <title>Erster Post</title>
-      <link>https://erik.moldtmann.de/posts/erster-post/</link>
-      <pubDate>Sun, 17 Mar 2019 11:21:40 +0100</pubDate>
-      
-      <guid>https://erik.moldtmann.de/posts/erster-post/</guid>
-      <description>Am Anfang war der Post. Nun ist es also soweit: nach ewigem hin-und-her-überlegen ob und wie und wann steht der Rohbau meines Blogs.
-Worum geht es hier? Ich möchte hier vor allem Guides zu verschiedenen Themen rund um IT und Programmierung posten. Diese dienen in erster Linie für mich selbst, um angelerntes Wissen für später festzuhalten, und in zweiter Linie, um den Rest der Welt daran teilhaben zu lassen.</description>
     </item>
     
   </channel>

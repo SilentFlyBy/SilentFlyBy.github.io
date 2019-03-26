@@ -6,10 +6,21 @@
     <description>Recent content on Erik Moldtmann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Sun, 17 Mar 2019 11:21:40 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 21:32:59 +0100</lastBuildDate>
     
 	<atom:link href="https://erik.moldtmann.de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statische Webseiten müssen nicht schwer sein.</title>
+      <link>https://erik.moldtmann.de/posts/statische-webseiten-muessen-nicht-schwer-sein/</link>
+      <pubDate>Mon, 18 Mar 2019 21:32:59 +0100</pubDate>
+      
+      <guid>https://erik.moldtmann.de/posts/statische-webseiten-muessen-nicht-schwer-sein/</guid>
+      <description>Wer Webseiten mit einheitlichem Look bauen möchte, stößt mit reinem HTML schnell an seine Grenzen.
+Webseiten bestehen meist aus einem einheitlichen Header, Footer und vielleicht einer Sidebar. Nur der Content dazwischen unterscheidet sich von Seite zu Seite.
+Versucht man nun, eine mehrere Unterseiten umfassende Webseite nur aus HTML-Dateien zu erstellen, muss man Header, Footer und Sidebar auf jeder Seite manuell einfügen. Ändert sich der Code an einem dieser Elemente, muss man die Änderung auf jeder einzelnen Unterseite mitziehen.</description>
+    </item>
     
     <item>
       <title>Erster Post</title>

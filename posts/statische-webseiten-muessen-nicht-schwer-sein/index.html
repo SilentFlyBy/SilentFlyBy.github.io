@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html><meta charset="utf-8" />
+
+<title>Erik Moldtmann - Statische Webseiten müssen nicht schwer sein.</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans" rel="stylesheet"> 
+
+
+
+<link rel="stylesheet" href="/sass/main.css" media="screen"><body>
+        <div class="page-container"><header>
+    <a class="nav-title" href="https://erik.moldtmann.de">Erik Moldtmann</a>
+    
+        <div class="avatar"><img src="/images/avatar.png" alt="avatar"></div>
+    
+    <div class="burger-menu" onclick="document.getElementById('nav').classList.toggle('expanded')">
+        <div></div>
+        <div></div>
+        <div></div> 
+    </div> 
+    <nav class="navigation" id="nav">
+        
+            
+                <span>
+                    <a href="/posts/">Blog</a>
+                </span>
+            
+                <span>
+                    <a href="/about/">About</a>
+                </span>
+            
+        
+    </nav>
+</header><main>
+                    
+    <div class="header">
+    <h1>Statische Webseiten müssen nicht schwer sein.</h1>
+</div>
+<section class="post full">
+    <article>
+        <div class="post-meta">
+    <span class="date">March 18 2019</span>
+    <span class="divider">|</span>
+    
+        <span class="categories">
+  <i class="fas fa-folder"></i>
+    <a href="/categories/programming/">programming</a></span>
+
+    
+    <span class="divider">|</span>
+    
+        <span class="tags">
+    <i class="fas fa-tag"></i>
+      <a href="/tags/web/">#web</a></span>
+  
+    
+</div>
+        <div class="post-content">
+            
+
+<p>Wer Webseiten mit einheitlichem Look bauen möchte, stößt mit reinem HTML schnell an seine Grenzen.<br />
+Webseiten bestehen meist aus einem einheitlichen Header, Footer und vielleicht einer Sidebar.
+Nur der Content dazwischen unterscheidet sich von Seite zu Seite.</p>
+
+<p>Versucht man nun, eine mehrere Unterseiten umfassende Webseite nur aus HTML-Dateien zu erstellen,
+muss man Header, Footer und Sidebar auf jeder Seite manuell einfügen. Ändert sich der Code an einem
+dieser Elemente, muss man die Änderung auf jeder einzelnen Unterseite mitziehen. Ein Aufwand,
+der mit wachsender Komplexität der Webseite unvertretbar wird, abgesehen von der Fehleranfälligkeit.</p>
+
+<h1 id="das-problem">Das Problem</h1>
+
+<p>Das Problem ist eigentlich ein ziemlich Simples:</p>
+
+<p class="notice important">HTML unterstützt nicht das Einbinden anderer HTML-Dokumente.</p>
+
+<h1 id="aber-es-gibt-doch-iframes">Aber es gibt doch IFrames?</h1>
+
+<p>Das Problem mit IFrames ist, dass sie ein Eigenleben führen. Sie haben einen eigenen Kontekt, eigene
+Styles und Ressourcen, eine eigene History und können den restlichen Inhalt der Seite nicht &ldquo;sehen&rdquo;
+und folglich auch keine Daten mit ihm austauschen. IFrames sind ein bisschen wie ein eigenes Browserfenster
+in der Seite, nur ohne Rahmen. Das wird spätestens dann zum Problem, wenn z.B. im Navigationsmenü die
+aktuell aktive Seite hervorgehoben werden soll.</p>
+
+<p>Wir brauchen also eine Lösung, die fertige HTML-Schnipsel fest in unsere Seite einbettet.</p>
+
+<h1 id="lösungsansätze">Lösungsansätze</h1>
+
+<ul>
+<li>HTML-Editoren mit eingebauter Seitengenerierung (MS Expression Web, Adobe Dreamweaver)</li>
+<li>Content-Management-Systeme (Wordpress, Typo3, Drupal, &hellip;)</li>
+<li>PHP include</li>
+<li>HTML Imports (Von aktuellen Browsern nicht unterstützt)</li>
+<li>AJAX</li>
+</ul>
+
+<h1 id="neue-probleme">Neue Probleme</h1>
+
+<p>HTML-Editoren zwingen dem Bearbeiter eine Arbeitsumgebung auf und hindern ihn daran, einen Texteditor seiner Wahl zu benutzen.
+Außerdem gelten sie aufgrund ihrer geringen Flexibilität als veraltet; MS Expression Web wurde deshalb 2012 eingestellt.</p>
+
+<p>Die eleganteste und vielseitigste Lösung scheinen Content-Management-Systeme zu sein. Sie generieren bei jeder Anfrage die Seite
+serverseitig und erlauben so hochkomplexe dynamische Webseiten. In der Regel beinhalten sie WYSIWYG-Editoren, mit denen
+auch Personen ohne HTML-Kenntnisse wohlformatierte Inhalte verfassen können.</p>
+
+<p>Die serverseitige Seitengenerierung hat jedoch ihren Preis: Sie ist potentiell anfällig für schwere Sicherheitslücken.
+Wordpress, das wohl beliebteste CMS, hat in der Vergangenheit immer wieder mit Lücken zu kämpfen gehabt, die Remote Code Execution
+erlaubten, für eine Seite, die öffentlich für jedermann erreichbar ist, ist das wohl so ziemlich der Supergau.</p>
+
+<p>PHP Includes sind, wenn man auf sonstigen PHP-Code verzichtet, wohl wenig anfällig für derartige Sicherheitsprobleme,
+allerdings erfordern sie, wie auch fast alle CMS, dass auf dem Webserver PHP verfügbar ist, eine Voraussetzung, die nicht
+überall selbstverständlich gegeben ist.</p>
+
+<p>Neben den inzwischen vom W3C verworfenen HTML-Imports gibt es als verbleibende Lösung, die ohne serverseitige Codeausführung
+auskommt, noch JavaScript, das per AJAX den einzufügenden HTML-Code vom Server abruft und diesen dann nach dem Laden der eigentlichen
+Seite ins DOM einfügt. Doch spätestens, wenn man möchte, dass seine Seite auch bei Google korrekt gelistet wird, wird
+dies zum Problem. Die Suchmaschinencrawler, die die Seite nach Inhalten und Schlagworten durchsuchen, führen in der Regel keinen
+JavaScript-Code aus und laden die Seite daher nur unvollständig. Die Suchergebnisse zu der Seite werden fehlerhaft sein und die Seite
+im Ranking womöglich herabgestuft.</p>
+
+<h1 id="eine-elegante-und-moderne-lösung">Eine elegante und moderne Lösung</h1>
+
+<p>HTML-Editoren, die statische Seiten aus Templates erzeugen mögen veraltet sein. Die Idee dahinter hat in der vergangenen Zeit
+jedoch wieder Aufwind bekommen.</p>
+
+<p>Statische Seitengeneratoren sind wieder im Kommen, diesmal jedoch als Kommandozeilenprogramme ohne Entwicklungsumgebung drumherum.
+Die Idee ist simpel, aus Templates und HTML-Schnipseln werden auf Kommando statische Seiten erzeugt. Für jede Unterseite gibt
+es ein eigenes HTML-Dokument, das Header, Footer und den Content der Seite enthält.</p>
+
+<p>Sie bringen die Flexibilität von Content Management Systemen mit und sind dabei trotzdem extrem genügsam, was die Serverumgebung
+angeht. Kein PHP, kein MySQL, ein einfacher Webserver ist alles, was man zum Hosten braucht.</p>
+
+<p>Hugo hat sich in jüngster Vergangenheit zum Vorreiter in diesem Gebiet gemausert und sticht seine NodeJS-basierten Alternativen
+vor allem durch seine Geschwindigkeit aus.</p>
+
+<p>Ich habe es zum Erstellen dieser Seite verwendet und möchte es nicht mehr missen.</p>
+
+        </div>
+    </article>
+</section>
+
+                </main><footer>
+    
+        <a href="/imprint/">Imprint</a>
+     
+</footer></div>
+    </body>
+</html>
