@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://erik.moldtmann.de/posts/statische-webseiten-muessen-nicht-schwer-sein/</loc>
+    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://erik.moldtmann.de/posts/erster-post/</loc>
     <lastmod>2019-03-17T11:21:40+01:00</lastmod>
   </url>
@@ -26,18 +31,30 @@
   
   <url>
     <loc>https://erik.moldtmann.de/</loc>
-    <lastmod>2019-03-17T11:21:40+01:00</lastmod>
+    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://erik.moldtmann.de/posts/</loc>
-    <lastmod>2019-03-17T11:21:40+01:00</lastmod>
+    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://erik.moldtmann.de/categories/programming/</loc>
+    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://erik.moldtmann.de/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://erik.moldtmann.de/tags/web/</loc>
+    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
     <priority>0</priority>
   </url>
   
