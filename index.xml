@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Erik Moldtmann</title>
+    <title>Homepage on Erik Moldtmann</title>
     <link>https://erik.moldtmann.de/</link>
-    <description>Recent content on Erik Moldtmann</description>
+    <description>Recent content in Homepage on Erik Moldtmann</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 26 Mar 2019 20:32:59 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 16 Mar 2019 15:01:29 +0100</lastBuildDate>
     
 	<atom:link href="https://erik.moldtmann.de/index.xml" rel="self" type="application/rss+xml" />
     
