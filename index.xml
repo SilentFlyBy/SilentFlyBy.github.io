@@ -5,11 +5,20 @@
     <link>https://erik.moldtmann.de/</link>
     <description>Recent content in Homepage on Erik Moldtmann</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language>
     <lastBuildDate>Sat, 16 Mar 2019 15:01:29 +0100</lastBuildDate>
     
 	<atom:link href="https://erik.moldtmann.de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ohne Automatisierung kein Grundeinkommen</title>
+      <link>https://erik.moldtmann.de/posts/gedanken-zum-grundeinkommen/</link>
+      <pubDate>Mon, 17 Jun 2019 22:31:30 +0200</pubDate>
+      
+      <guid>https://erik.moldtmann.de/posts/gedanken-zum-grundeinkommen/</guid>
+      <description>Als jemand, dessen Job es ist, Dinge zu automatisieren, ist das Thema Grundeinkommen für mich ein sehr Relevantes. Die fortschreitende Automatisierung in allen Bereichen, in denen bisher menschliche Arbeitskraft eingesetzt wurde, hat die Idee vom Grundeinkommen erst auf den Plan gerufen.
+Seit die Idee in jüngster Zeit immer wieder neuen Aufwind erlebt hat, sei es durch namhafte Beführworter wie Elon Musk oder Frank Thelen, oder durch z.T. staatlich geförderte Experimente, wird sie extrem kontrovers diskutiert.</description>
+    </item>
     
     <item>
       <title>Statische Webseiten müssen nicht schwer sein.</title>

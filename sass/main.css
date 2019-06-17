@@ -64,11 +64,11 @@ body > .page-container > header {
   align-items: stretch;
   box-shadow: 0 3px 8px 0 rgba(3, 3, 3, 0.1);
   font-size: 200%;
-  height: 2em;
+  height: 4rem;
   padding: 0 2rem; }
   body > .page-container > header > a {
     color: #000;
-    line-height: 2em; }
+    line-height: 4rem; }
   body > .page-container > header .burger-menu {
     width: 50px;
     display: none;
@@ -107,10 +107,10 @@ body > .page-container > header {
     position: fixed;
     top: 0;
     background-color: #FFF;
-    height: 2em;
+    height: 4rem;
     padding: 0 1rem; }
     body > .page-container > header > a {
-      line-height: 2em;
+      line-height: 4rem;
       font-size: 1.6rem; }
     body > .page-container > header .burger-menu {
       display: flex; }
@@ -124,7 +124,7 @@ body > .page-container > header {
       border-left: 1px solid #D4DADF;
       box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1);
       height: 100%;
-      top: 2em;
+      top: 4rem;
       display: block; }
       body > .page-container > header nav.expanded {
         right: 0; }

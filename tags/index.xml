@@ -5,13 +5,22 @@
     <link>https://erik.moldtmann.de/tags/</link>
     <description>Recent content in Tags on Erik Moldtmann</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de-de</language>
+    <lastBuildDate>Mon, 17 Jun 2019 22:31:30 +0200</lastBuildDate>
     
 	<atom:link href="https://erik.moldtmann.de/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Web</title>
+      <title>grundeinkommen</title>
+      <link>https://erik.moldtmann.de/tags/grundeinkommen/</link>
+      <pubDate>Mon, 17 Jun 2019 22:31:30 +0200</pubDate>
+      
+      <guid>https://erik.moldtmann.de/tags/grundeinkommen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
       <link>https://erik.moldtmann.de/tags/web/</link>
       <pubDate>Tue, 26 Mar 2019 20:32:59 +0100</pubDate>
       

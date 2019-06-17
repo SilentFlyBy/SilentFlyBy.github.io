@@ -1,60 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://erik.moldtmann.de/posts/statische-webseiten-muessen-nicht-schwer-sein/</loc>
-    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/posts/erster-post/</loc>
-    <lastmod>2019-03-17T11:21:40+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/imprint/</loc>
-    <lastmod>2019-03-16T20:52:56+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/</loc>
-    <lastmod>2019-03-16T15:01:29+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/categories/blog/</loc>
-    <lastmod>2019-03-17T11:21:40+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/categories/</loc>
-    <lastmod>2019-03-17T11:21:40+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/posts/</loc>
-    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/categories/programming/</loc>
-    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://erik.moldtmann.de/tags/web/</loc>
-    <lastmod>2019-03-26T20:32:59+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://erik.moldtmann.de/de/sitemap.xml</loc>
+		
+	   	<lastmod>2019-06-17T22:31:30+02:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://erik.moldtmann.de/en/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>
